@@ -1,0 +1,28 @@
+
+<div class="row">
+  <div class="col">
+    <h1>*ngIf</h1>
+    <hr>
+
+    <div class="card" *ngIf="mostrar">
+      <div class="card-body">
+        <h5 class="card-title">{{frase.autor}}</h5>
+        <p class="card-text">{{frase.mensagem}}</p>
+
+      </div>
+    </div>
+    <button (click)="mostrar = !mostrar"  class="btn btn-primary">Go somewhere</button>
+
+  </div>
+
+  <div class="col">
+    <h1>*ngFor</h1>
+    <hr>
+    <ul class="list-group">
+      <li *ngFor="let item of lista" class="list-group-item">{{item}}</li>
+
+    </ul>
+
+  </div>
+
+</div>
