@@ -31,7 +31,7 @@
               "node_modules/jquery/dist/jquery.slim.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/feather-icons/dist/feather.min.js",
+              "node_modules/feather-icons/dist/feather.js",
               "node_modules/chart.js/dist/Chart.min.js"
 
             ]

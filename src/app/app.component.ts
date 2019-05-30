@@ -7,7 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'investment-comparator';
-  nome = 'Renato';
-  sobrenome = 'Oliveira';
-
 }
