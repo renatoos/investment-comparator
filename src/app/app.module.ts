@@ -3,21 +3,33 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import {HeaderComponent} from './components/header/header.component';
-import {BodyComponent} from './components/body/body.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { MenuComponent } from './components/menu/menu.component';
+//Components
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { DetailsComponent } from './components/details/details.component';
+
+//Routes
+import {APP_ROUTING} from './app.routes';
+
+//Services
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    BodyComponent,
     FooterComponent,
-    MenuComponent
+    SidebarComponent,
+    NavbarComponent,
+    HomeComponent,
+    AboutComponent,
+    DetailsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
